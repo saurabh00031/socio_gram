@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,500,700,800');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-@font-face {
+/* @font-face {
     font-family: calibri;
     
-}
+} */
 
 
 /*===============
@@ -19,15 +19,19 @@ html,body{
     text-align: justify !important; width: 1100px; color: #000; font-family: calibri; margin-left:5%;text-decoration: none;outline: none;
 }
 
+
 body {
     float: left;
     width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    color: #545454;
-    background: #b0b3b8;
+    color: #2d2c2c;
+    background: #141414;
 }
+
+
+
 
 p {
     font-size: 14px;
@@ -771,7 +775,7 @@ header.sticky {
 }
 
 .timeline-info {
-    background: ##b0b3b8 none repeat scroll 0 0;
+    background: #b0b3b8 none repeat scroll 0 0;
     display: block;
     line-height: 59px;
     width: 100%;
@@ -1245,7 +1249,7 @@ header.sticky {
     width: 100%;
 }
 
-.activity-meta > h6 a {}
+/* .activity-meta > h6 a {} */
 
 .activitiez > li::before {
     content: "";
@@ -1261,10 +1265,9 @@ header.sticky {
 }
 
 .central-meta {
-    background: #fff none repeat scroll 0 0;
-    /*border: 1px solid pink;*/
+    background: #303030 none repeat scroll 0 0;
     border-radius: 10px;
-    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 12px 2px rgba(132, 131, 131, 0.5);
     display: inline-block;
     width: 100%;
     height: 121.3vh;
@@ -1483,9 +1486,9 @@ form button {
     transition: all 0.2s linear 0s;
 }
 
-.we-video-info > ul li span.like:hover .we-video-info > ul li span.dislike:hover {
-    trnsform: scale(1.1);
-}
+/* .we-video-info > ul li span.like:hover .we-video-info > ul li span.dislike:hover {
+    /* trnsform: scale(1.1); */
+/* } */ */
 
 
 /*--- social icons opening hovers style ---*/
@@ -4026,7 +4029,7 @@ a.forgot-pwd {
 
 .more-options {
     display: inline-block;
-    float: right;
+    /* float: right; */
     position: relative;
 }
 
@@ -4524,8 +4527,8 @@ canvas {
 }
 
 .central-meta button.btn-view {
-    background: #000;
-    color: pink !important;
+    background: rgb(48, 47, 47); 
+     color: pink !important;
 }
 
 .btn-view.btn-load-more::before {
@@ -6583,7 +6586,7 @@ a.reply {
     border-radius: 30px;
     color: #333;
     display: inline-block;
-    float: right;
+    /* float: right; */
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -7323,7 +7326,7 @@ ul.offcanvas-menu ul {
     -ms-background-clip: text;
     -o-background-clip: text;
     background-clip: text;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
     margin-right: 10px;
     font-size: 60px;
     vertical-align: middle;
@@ -8513,7 +8516,7 @@ a.shopping-cart > i {
     border: 3px solid #eee;
     width: 124px !important;
     display: inline-block;
-    float: right;
+    /* float: right; */
     cursor: pointer;
 }
 
