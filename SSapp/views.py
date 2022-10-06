@@ -249,9 +249,9 @@ def logout(request):
     auth.logout(request)
     return redirect('signin')
 
-@login_required(login_url='signin')
-def uploadPost(request):
-    return render(request,'uploadPost.html')
+# @login_required(login_url='signin')
+# def uploadPost(request):
+#     return render(request,'uploadPost.html')
 
 
 
@@ -267,4 +267,9 @@ def uploadPost(request):
             heyy = Reg_Post(user=user,image=image,caption=caption,created_at=datetime.today(),no_of_likes=0)
             heyy.save()
             print('form submitted')
-    return render(request,'uploadPost.html')
+            return render(request,'uploadPost.html')
+    else:
+            return render(request,'uploadPost.html')
+
+
+
