@@ -1,10 +1,10 @@
-####   Project Title: ........................................
+##   Project Title: ........................................
 
-#  Socio_gram ultimate social site
+####  Socio_gram ultimate social site
 
 
-##    Team Name : 
-####  PL3 Avengers
+##   Team Name : 
+#### PL3 Avengers
 
 
 ##    Team Members : .............................................
