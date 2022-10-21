@@ -22,7 +22,7 @@
  
  ##   Some Snaps :
  
-  ![image](https://user-images.githubusercontent.com/85858942/194501876-b882bb32-1ab3-4124-b382-dd535d345eda.png)
+
 
 
 
